@@ -1,0 +1,16 @@
+PODS:
+  - MSSPhoneNumber (1.0.0)
+
+DEPENDENCIES:
+  - MSSPhoneNumber (from `../`)
+
+EXTERNAL SOURCES:
+  MSSPhoneNumber:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSSPhoneNumber: 3b2f87ba584cd31773eacce01f2bfe4f596be6ba
+
+PODFILE CHECKSUM: 661c24999a756dcd4e90b947f5eb968bc8a97b6f
+
+COCOAPODS: 1.13.0

@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094A1F958FAD29D73A4117929AE7276C /* MSSPhoneNumber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3EBA33728DC124ADD287FAE97F2D8 /* MSSPhoneNumber-dummy.m */; };
+		0E40E3009A4278A1B58827172F750015 /* CountriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89B6F7DC79DA608C58B830961D76B6A /* CountriesController.swift */; };
+		231B4DC4093565F20F0850DD1A062653 /* MSSPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4573B07F74CFFF530DA65E0CFEB6B0AA /* MSSPhoneNumber.swift */; };
+		3DEF767ACAADA5D979795793E626989B /* Picker in Resources */ = {isa = PBXBuildFile; fileRef = FB8FBF80E1A3E681E3EA73113AD5D3DF /* Picker */; };
+		3FDDD80C7533D365EFC027A96DDEBA33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		45C18FD0C954F65C0DD2DE6E95345596 /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = 94E67AC2F23D64C714F3563D02BA75B9 /* Utils */; };
+		48383AB070D18C1E21332EEFC83C601A /* MSSPhoneNumber.swift in Resources */ = {isa = PBXBuildFile; fileRef = 4573B07F74CFFF530DA65E0CFEB6B0AA /* MSSPhoneNumber.swift */; };
+		50595ED2CD59EE10A781B64A55DA8DC7 /* PhoneValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006857C8F5ABD15A556BF6FEDB90E481 /* PhoneValidator.swift */; };
+		5F7093559DB8B8A7B574E8A5D96CCAE6 /* MSSPhoneNumber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3D29D198F03AD41D4A0A36BF951C55 /* MSSPhoneNumber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A9918B8A80E4D5836FD29C791640E1B /* CountryCodes.json in Sources */ = {isa = PBXBuildFile; fileRef = 1104843D1FFB8860DF34CA8DD47ECA7E /* CountryCodes.json */; };
+		6D96253CC974C49A49D6106D4DEE94E7 /* MSSCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4946B8A1940FCC2EA4467489545598E /* MSSCountryPicker.swift */; };
+		796447B5F7DC08BD415ACF798ED687C6 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90638E0534AC5B8A966973458BC2A5A4 /* ValidationError.swift */; };
+		8CA645EE51B7E26C6FCF2CC9F84ED5C2 /* MSSCountryPicker.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3453B6FE325B127A4C9DB189E966287D /* MSSCountryPicker.xib */; };
+		917BA252C42CF44BFFDD644C68AE534D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		92FE1DD412CCD6721E61AD68B691D27E /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B1E00B736A33B9C13343344D6FF4F9 /* Validator.swift */; };
+		9C1402489B7563F2CD8ACBC533FF0CAE /* Country in Resources */ = {isa = PBXBuildFile; fileRef = 2FD15DFBFA371BEEB62D5921B0F158E0 /* Country */; };
+		9D57F2077FF976F702804D437020A008 /* Pods-MSSPhoneNumber_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE56FDEF986571F5B6EDFE63854197 /* Pods-MSSPhoneNumber_Tests-dummy.m */; };
+		ABDC95FB7DC132996FCEE6ABE350D6F5 /* Pods-MSSPhoneNumber_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB0E5EBEEE39FEFA3AED85E1B822FA24 /* Pods-MSSPhoneNumber_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0BC78350CEE8A202A10DFA729CA3BBA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69971B14339903E044F29461A4DC38C /* Extensions.swift */; };
+		B459098ECF08CD89B9CDCDB70F53557C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30C31D9C42DE2C2F66C279FB73082E /* Country.swift */; };
+		B7E2A5CA609D3996BE5F3809C8EE14F6 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58429F91C3B48F3015980B11331F2600 /* CountryTableViewCell.swift */; };
+		B7EAD9AE157890C18AC2B9296D8FEA19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BCB43A6FD575252D6607C73B51925674 /* CountryTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0B212F18315CB43A15700AEDC4431C91 /* CountryTableViewCell.xib */; };
+		C18417520508CC7E5224AFB63B912BC5 /* Pods-MSSPhoneNumber_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D720D5244D735BCCDABD273D8E8F3 /* Pods-MSSPhoneNumber_Example-dummy.m */; };
+		D4AA7EF67B1367D13445E0F7332C5AE8 /* Pods-MSSPhoneNumber_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1BF0A735EA9652F1DC1A6FBD5E53CC /* Pods-MSSPhoneNumber_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2073012D80E6998E4195002208BC85F /* Validators in Resources */ = {isa = PBXBuildFile; fileRef = E3B42D282B7EA41A3A12BB96C3C6EA9F /* Validators */; };
+		F1E58E9E634CDBFA314E23552EE9D68D /* CountryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1104843D1FFB8860DF34CA8DD47ECA7E /* CountryCodes.json */; };
+		F2798F1401EC5F98BBC9BDC6740A42F5 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB57B4089D7B3B3C74842315D4D844 /* Strings.swift */; };
+		F279DE4B5249C0A45CAC80AAC7CCFBC0 /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6936CF17B05079C169FB94BAC252BE4C /* ValidationRule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E8BA6779528F8954B0E6D632EAAEB86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95892E9D3B7AF60E43B749D470ECBE81;
+			remoteInfo = MSSPhoneNumber;
+		};
+		D442DBEEF57BD242F1AD2B0027B45CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8815A64E60F446122019F7BD7FF3A0A0;
+			remoteInfo = "Pods-MSSPhoneNumber_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006857C8F5ABD15A556BF6FEDB90E481 /* PhoneValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhoneValidator.swift; sourceTree = "<group>"; };
+		0B212F18315CB43A15700AEDC4431C91 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
+		0F1BF0A735EA9652F1DC1A6FBD5E53CC /* Pods-MSSPhoneNumber_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSSPhoneNumber_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1104843D1FFB8860DF34CA8DD47ECA7E /* CountryCodes.json */ = {isa = PBXFileReference; includeInIndex = 1; name = CountryCodes.json; path = Sources/MSSPhoneNumber/CountryCodes.json; sourceTree = "<group>"; };
+		268F71D319BB3E3498611075B8991542 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2D63A505D581B2D765588A3027AC5168 /* Pods-MSSPhoneNumber_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSSPhoneNumber_Tests.modulemap"; sourceTree = "<group>"; };
+		2FD15DFBFA371BEEB62D5921B0F158E0 /* Country */ = {isa = PBXFileReference; includeInIndex = 1; name = Country; path = Sources/MSSPhoneNumber/Country; sourceTree = "<group>"; };
+		3453B6FE325B127A4C9DB189E966287D /* MSSCountryPicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MSSCountryPicker.xib; sourceTree = "<group>"; };
+		3EC3EBA33728DC124ADD287FAE97F2D8 /* MSSPhoneNumber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSSPhoneNumber-dummy.m"; sourceTree = "<group>"; };
+		4573B07F74CFFF530DA65E0CFEB6B0AA /* MSSPhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSSPhoneNumber.swift; path = Sources/MSSPhoneNumber/MSSPhoneNumber.swift; sourceTree = "<group>"; };
+		486412D8981686E683B6EDFE8CBF2C86 /* Pods-MSSPhoneNumber_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSSPhoneNumber_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4E6CBEF888CDF6179BA62FE19119E456 /* Pods-MSSPhoneNumber_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSSPhoneNumber_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5075A1C883697A3515E824E2907F4698 /* Pods-MSSPhoneNumber_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSSPhoneNumber_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		56245ABA4B4A4CCC6014E9757C26A772 /* Pods-MSSPhoneNumber_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSSPhoneNumber_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5734F152B7B3C550A76A0BA3C7977C11 /* Pods-MSSPhoneNumber_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSSPhoneNumber_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		58429F91C3B48F3015980B11331F2600 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		66A921D780081730980A439357864173 /* Pods-MSSPhoneNumber_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSSPhoneNumber_Tests-Info.plist"; sourceTree = "<group>"; };
+		67BB57B4089D7B3B3C74842315D4D844 /* Strings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		6936CF17B05079C169FB94BAC252BE4C /* ValidationRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValidationRule.swift; sourceTree = "<group>"; };
+		6F3D29D198F03AD41D4A0A36BF951C55 /* MSSPhoneNumber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSSPhoneNumber-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7526F3BD8F4B318B97472DB33CD98A9F /* Pods-MSSPhoneNumber_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MSSPhoneNumber_Example"; path = Pods_MSSPhoneNumber_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78522C33F252FDE4C9C04DFA2EC6E367 /* MSSPhoneNumber-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSSPhoneNumber-prefix.pch"; sourceTree = "<group>"; };
+		80B1E00B736A33B9C13343344D6FF4F9 /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		90638E0534AC5B8A966973458BC2A5A4 /* ValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		9257ADF183938609968E6EDD20CDEE75 /* Pods-MSSPhoneNumber_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSSPhoneNumber_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		94E67AC2F23D64C714F3563D02BA75B9 /* Utils */ = {isa = PBXFileReference; includeInIndex = 1; name = Utils; path = Sources/MSSPhoneNumber/Utils; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE20D2034BF316BD8F03E0F34AB94C0 /* Pods-MSSPhoneNumber_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSSPhoneNumber_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AD582A795B4876BC7C4ED9D5D930EB14 /* MSSPhoneNumber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSSPhoneNumber.modulemap; sourceTree = "<group>"; };
+		B4856D2C8891AA7F1610684AF8162EDF /* MSSPhoneNumber-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSSPhoneNumber-Info.plist"; sourceTree = "<group>"; };
+		C2FE56FDEF986571F5B6EDFE63854197 /* Pods-MSSPhoneNumber_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSSPhoneNumber_Tests-dummy.m"; sourceTree = "<group>"; };
+		C32662BB35AE2ECF9ABDB471BF25FAC5 /* MSSPhoneNumber */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSSPhoneNumber; path = MSSPhoneNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C690B46DDEA123B924BCCF67AD682145 /* Pods-MSSPhoneNumber_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MSSPhoneNumber_Tests"; path = Pods_MSSPhoneNumber_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69971B14339903E044F29461A4DC38C /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CEFED40C864FCD9DEAA2E9B1E9E0E91B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D0B71DAD6BF2C34CCFC0873D074ED0CF /* MSSPhoneNumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSSPhoneNumber.release.xcconfig; sourceTree = "<group>"; };
+		DB0E5EBEEE39FEFA3AED85E1B822FA24 /* Pods-MSSPhoneNumber_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSSPhoneNumber_Example-umbrella.h"; sourceTree = "<group>"; };
+		E3B42D282B7EA41A3A12BB96C3C6EA9F /* Validators */ = {isa = PBXFileReference; includeInIndex = 1; name = Validators; path = Sources/MSSPhoneNumber/Validators; sourceTree = "<group>"; };
+		E4946B8A1940FCC2EA4467489545598E /* MSSCountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSSCountryPicker.swift; sourceTree = "<group>"; };
+		E87D720D5244D735BCCDABD273D8E8F3 /* Pods-MSSPhoneNumber_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSSPhoneNumber_Example-dummy.m"; sourceTree = "<group>"; };
+		E89B6F7DC79DA608C58B830961D76B6A /* CountriesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountriesController.swift; sourceTree = "<group>"; };
+		EC509720E6DD3443F0C8322B7657AEBD /* Pods-MSSPhoneNumber_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSSPhoneNumber_Example-Info.plist"; sourceTree = "<group>"; };
+		ED25274869A6EFE3D652BB58DF50E77D /* Pods-MSSPhoneNumber_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSSPhoneNumber_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED30C31D9C42DE2C2F66C279FB73082E /* Country.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		EDDEC0B74132F884CCF1069BA0BB360D /* MSSPhoneNumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSSPhoneNumber.debug.xcconfig; sourceTree = "<group>"; };
+		F466111F6769F5F545F9AF7ED46D9CF0 /* Pods-MSSPhoneNumber_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSSPhoneNumber_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F5B31C9A5199F1DF01F9409067371373 /* Pods-MSSPhoneNumber_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSSPhoneNumber_Example.modulemap"; sourceTree = "<group>"; };
+		FA018BC93DB402AB4C14FCC5D47F8FAA /* MSSPhoneNumber.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSSPhoneNumber.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB8FBF80E1A3E681E3EA73113AD5D3DF /* Picker */ = {isa = PBXFileReference; includeInIndex = 1; name = Picker; path = Sources/MSSPhoneNumber/Picker; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0575AE7DACA319C3BF6E2226DF830718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EAD9AE157890C18AC2B9296D8FEA19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6DF3589F74ED6F521AB11997A525AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDDD80C7533D365EFC027A96DDEBA33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B3441D6DCBCD7342E6C940189D329F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917BA252C42CF44BFFDD644C68AE534D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ADC463BE5E1B361DDBE98B16F0C9379 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				E89B6F7DC79DA608C58B830961D76B6A /* CountriesController.swift */,
+				ED30C31D9C42DE2C2F66C279FB73082E /* Country.swift */,
+			);
+			name = Country;
+			path = Sources/MSSPhoneNumber/Country;
+			sourceTree = "<group>";
+		};
+		455A287ABE3FB9A8FDA8BC9BEEBFEE68 /* Pods-MSSPhoneNumber_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F5B31C9A5199F1DF01F9409067371373 /* Pods-MSSPhoneNumber_Example.modulemap */,
+				ED25274869A6EFE3D652BB58DF50E77D /* Pods-MSSPhoneNumber_Example-acknowledgements.markdown */,
+				9257ADF183938609968E6EDD20CDEE75 /* Pods-MSSPhoneNumber_Example-acknowledgements.plist */,
+				E87D720D5244D735BCCDABD273D8E8F3 /* Pods-MSSPhoneNumber_Example-dummy.m */,
+				9FE20D2034BF316BD8F03E0F34AB94C0 /* Pods-MSSPhoneNumber_Example-frameworks.sh */,
+				EC509720E6DD3443F0C8322B7657AEBD /* Pods-MSSPhoneNumber_Example-Info.plist */,
+				DB0E5EBEEE39FEFA3AED85E1B822FA24 /* Pods-MSSPhoneNumber_Example-umbrella.h */,
+				5075A1C883697A3515E824E2907F4698 /* Pods-MSSPhoneNumber_Example.debug.xcconfig */,
+				486412D8981686E683B6EDFE8CBF2C86 /* Pods-MSSPhoneNumber_Example.release.xcconfig */,
+			);
+			name = "Pods-MSSPhoneNumber_Example";
+			path = "Target Support Files/Pods-MSSPhoneNumber_Example";
+			sourceTree = "<group>";
+		};
+		50DC140C8A7AC2E701D78C4F073FA856 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C69971B14339903E044F29461A4DC38C /* Extensions.swift */,
+				67BB57B4089D7B3B3C74842315D4D844 /* Strings.swift */,
+			);
+			name = Utils;
+			path = Sources/MSSPhoneNumber/Utils;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CCD576CAB5C37C67FC27F772BDC3A2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32662BB35AE2ECF9ABDB471BF25FAC5 /* MSSPhoneNumber */,
+				7526F3BD8F4B318B97472DB33CD98A9F /* Pods-MSSPhoneNumber_Example */,
+				C690B46DDEA123B924BCCF67AD682145 /* Pods-MSSPhoneNumber_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61D63AC8DCBA6133DD469D57C86D76F9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				455A287ABE3FB9A8FDA8BC9BEEBFEE68 /* Pods-MSSPhoneNumber_Example */,
+				FB3BE13F329BC1C0D02886282134E047 /* Pods-MSSPhoneNumber_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6ADAD67BD2D4CBC92A1C5F3C749F2CCA /* CountryTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				58429F91C3B48F3015980B11331F2600 /* CountryTableViewCell.swift */,
+				0B212F18315CB43A15700AEDC4431C91 /* CountryTableViewCell.xib */,
+			);
+			name = CountryTableViewCell;
+			path = CountryTableViewCell;
+			sourceTree = "<group>";
+		};
+		6E62322BEB6D142528B161FE38A72FA2 /* MSSCountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				E4946B8A1940FCC2EA4467489545598E /* MSSCountryPicker.swift */,
+				3453B6FE325B127A4C9DB189E966287D /* MSSCountryPicker.xib */,
+			);
+			name = MSSCountryPicker;
+			path = MSSCountryPicker;
+			sourceTree = "<group>";
+		};
+		75568717B78FF0579983E0A8BD387D8B /* MSSPhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				2FD15DFBFA371BEEB62D5921B0F158E0 /* Country */,
+				1104843D1FFB8860DF34CA8DD47ECA7E /* CountryCodes.json */,
+				4573B07F74CFFF530DA65E0CFEB6B0AA /* MSSPhoneNumber.swift */,
+				FB8FBF80E1A3E681E3EA73113AD5D3DF /* Picker */,
+				94E67AC2F23D64C714F3563D02BA75B9 /* Utils */,
+				E3B42D282B7EA41A3A12BB96C3C6EA9F /* Validators */,
+				3ADC463BE5E1B361DDBE98B16F0C9379 /* Country */,
+				A7472130A8AD6B88C9AA3F95993F6838 /* Picker */,
+				E847F92CC3F3ED8667EC758C487D368B /* Pod */,
+				CB982A656212208F659D13ACB7C9AD01 /* Support Files */,
+				50DC140C8A7AC2E701D78C4F073FA856 /* Utils */,
+				92B715E38199B022A37BA557BFBAA897 /* Validators */,
+			);
+			name = MSSPhoneNumber;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		92B715E38199B022A37BA557BFBAA897 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				006857C8F5ABD15A556BF6FEDB90E481 /* PhoneValidator.swift */,
+				90638E0534AC5B8A966973458BC2A5A4 /* ValidationError.swift */,
+				6936CF17B05079C169FB94BAC252BE4C /* ValidationRule.swift */,
+				80B1E00B736A33B9C13343344D6FF4F9 /* Validator.swift */,
+			);
+			name = Validators;
+			path = Sources/MSSPhoneNumber/Validators;
+			sourceTree = "<group>";
+		};
+		A7472130A8AD6B88C9AA3F95993F6838 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				6ADAD67BD2D4CBC92A1C5F3C749F2CCA /* CountryTableViewCell */,
+				6E62322BEB6D142528B161FE38A72FA2 /* MSSCountryPicker */,
+			);
+			name = Picker;
+			path = Sources/MSSPhoneNumber/Picker;
+			sourceTree = "<group>";
+		};
+		ACC7ABA9806D00E07E8EF24D81C4205C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75568717B78FF0579983E0A8BD387D8B /* MSSPhoneNumber */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CB982A656212208F659D13ACB7C9AD01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD582A795B4876BC7C4ED9D5D930EB14 /* MSSPhoneNumber.modulemap */,
+				3EC3EBA33728DC124ADD287FAE97F2D8 /* MSSPhoneNumber-dummy.m */,
+				B4856D2C8891AA7F1610684AF8162EDF /* MSSPhoneNumber-Info.plist */,
+				78522C33F252FDE4C9C04DFA2EC6E367 /* MSSPhoneNumber-prefix.pch */,
+				6F3D29D198F03AD41D4A0A36BF951C55 /* MSSPhoneNumber-umbrella.h */,
+				EDDEC0B74132F884CCF1069BA0BB360D /* MSSPhoneNumber.debug.xcconfig */,
+				D0B71DAD6BF2C34CCFC0873D074ED0CF /* MSSPhoneNumber.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSSPhoneNumber";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ACC7ABA9806D00E07E8EF24D81C4205C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5CCD576CAB5C37C67FC27F772BDC3A2F /* Products */,
+				61D63AC8DCBA6133DD469D57C86D76F9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E847F92CC3F3ED8667EC758C487D368B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				268F71D319BB3E3498611075B8991542 /* LICENSE */,
+				FA018BC93DB402AB4C14FCC5D47F8FAA /* MSSPhoneNumber.podspec */,
+				CEFED40C864FCD9DEAA2E9B1E9E0E91B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FB3BE13F329BC1C0D02886282134E047 /* Pods-MSSPhoneNumber_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2D63A505D581B2D765588A3027AC5168 /* Pods-MSSPhoneNumber_Tests.modulemap */,
+				4E6CBEF888CDF6179BA62FE19119E456 /* Pods-MSSPhoneNumber_Tests-acknowledgements.markdown */,
+				56245ABA4B4A4CCC6014E9757C26A772 /* Pods-MSSPhoneNumber_Tests-acknowledgements.plist */,
+				C2FE56FDEF986571F5B6EDFE63854197 /* Pods-MSSPhoneNumber_Tests-dummy.m */,
+				66A921D780081730980A439357864173 /* Pods-MSSPhoneNumber_Tests-Info.plist */,
+				0F1BF0A735EA9652F1DC1A6FBD5E53CC /* Pods-MSSPhoneNumber_Tests-umbrella.h */,
+				5734F152B7B3C550A76A0BA3C7977C11 /* Pods-MSSPhoneNumber_Tests.debug.xcconfig */,
+				F466111F6769F5F545F9AF7ED46D9CF0 /* Pods-MSSPhoneNumber_Tests.release.xcconfig */,
+			);
+			name = "Pods-MSSPhoneNumber_Tests";
+			path = "Target Support Files/Pods-MSSPhoneNumber_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46CDD769CCE91849162ECB1BE2805562 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDC95FB7DC132996FCEE6ABE350D6F5 /* Pods-MSSPhoneNumber_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D40FF3613C6DB9F986FB8075AFFFC93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7093559DB8B8A7B574E8A5D96CCAE6 /* MSSPhoneNumber-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05ADF1E65D0AB29853FBFD7B9A6171F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AA7EF67B1367D13445E0F7332C5AE8 /* Pods-MSSPhoneNumber_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		220C4FBD6FDEC25051406D99D86C0D0E /* Pods-MSSPhoneNumber_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D696F8AC4B2CA24E01EDB95559DF9B2 /* Build configuration list for PBXNativeTarget "Pods-MSSPhoneNumber_Tests" */;
+			buildPhases = (
+				C05ADF1E65D0AB29853FBFD7B9A6171F /* Headers */,
+				2206EDEC4EC22DA7C731EC167EC11343 /* Sources */,
+				3E6DF3589F74ED6F521AB11997A525AC /* Frameworks */,
+				49ABBAD4B88FBAF7A107AE6EBC98BE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B67619F064558EDE8963048564E76E23 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSSPhoneNumber_Tests";
+			productName = Pods_MSSPhoneNumber_Tests;
+			productReference = C690B46DDEA123B924BCCF67AD682145 /* Pods-MSSPhoneNumber_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8815A64E60F446122019F7BD7FF3A0A0 /* Pods-MSSPhoneNumber_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C280B37A24B43F51893627F8219FE27 /* Build configuration list for PBXNativeTarget "Pods-MSSPhoneNumber_Example" */;
+			buildPhases = (
+				46CDD769CCE91849162ECB1BE2805562 /* Headers */,
+				220644A5F50D50F71630E33D6E749956 /* Sources */,
+				0575AE7DACA319C3BF6E2226DF830718 /* Frameworks */,
+				4C2F46F0005205828383AF592D736AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10A154C5545F176BEB548454D11AB69 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSSPhoneNumber_Example";
+			productName = Pods_MSSPhoneNumber_Example;
+			productReference = 7526F3BD8F4B318B97472DB33CD98A9F /* Pods-MSSPhoneNumber_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		95892E9D3B7AF60E43B749D470ECBE81 /* MSSPhoneNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A610633D66165313A46C2B82D32BCD8 /* Build configuration list for PBXNativeTarget "MSSPhoneNumber" */;
+			buildPhases = (
+				8D40FF3613C6DB9F986FB8075AFFFC93 /* Headers */,
+				0779678D94F4B3204FC49559F8AB6D38 /* Sources */,
+				90B3441D6DCBCD7342E6C940189D329F /* Frameworks */,
+				AA5ECD26FACA5E4729C67F2C048F139F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSSPhoneNumber;
+			productName = MSSPhoneNumber;
+			productReference = C32662BB35AE2ECF9ABDB471BF25FAC5 /* MSSPhoneNumber */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5CCD576CAB5C37C67FC27F772BDC3A2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95892E9D3B7AF60E43B749D470ECBE81 /* MSSPhoneNumber */,
+				8815A64E60F446122019F7BD7FF3A0A0 /* Pods-MSSPhoneNumber_Example */,
+				220C4FBD6FDEC25051406D99D86C0D0E /* Pods-MSSPhoneNumber_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49ABBAD4B88FBAF7A107AE6EBC98BE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2F46F0005205828383AF592D736AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5ECD26FACA5E4729C67F2C048F139F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1402489B7563F2CD8ACBC533FF0CAE /* Country in Resources */,
+				F1E58E9E634CDBFA314E23552EE9D68D /* CountryCodes.json in Resources */,
+				48383AB070D18C1E21332EEFC83C601A /* MSSPhoneNumber.swift in Resources */,
+				3DEF767ACAADA5D979795793E626989B /* Picker in Resources */,
+				45C18FD0C954F65C0DD2DE6E95345596 /* Utils in Resources */,
+				E2073012D80E6998E4195002208BC85F /* Validators in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0779678D94F4B3204FC49559F8AB6D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E40E3009A4278A1B58827172F750015 /* CountriesController.swift in Sources */,
+				B459098ECF08CD89B9CDCDB70F53557C /* Country.swift in Sources */,
+				6A9918B8A80E4D5836FD29C791640E1B /* CountryCodes.json in Sources */,
+				B7E2A5CA609D3996BE5F3809C8EE14F6 /* CountryTableViewCell.swift in Sources */,
+				BCB43A6FD575252D6607C73B51925674 /* CountryTableViewCell.xib in Sources */,
+				B0BC78350CEE8A202A10DFA729CA3BBA /* Extensions.swift in Sources */,
+				6D96253CC974C49A49D6106D4DEE94E7 /* MSSCountryPicker.swift in Sources */,
+				8CA645EE51B7E26C6FCF2CC9F84ED5C2 /* MSSCountryPicker.xib in Sources */,
+				231B4DC4093565F20F0850DD1A062653 /* MSSPhoneNumber.swift in Sources */,
+				094A1F958FAD29D73A4117929AE7276C /* MSSPhoneNumber-dummy.m in Sources */,
+				50595ED2CD59EE10A781B64A55DA8DC7 /* PhoneValidator.swift in Sources */,
+				F2798F1401EC5F98BBC9BDC6740A42F5 /* Strings.swift in Sources */,
+				796447B5F7DC08BD415ACF798ED687C6 /* ValidationError.swift in Sources */,
+				F279DE4B5249C0A45CAC80AAC7CCFBC0 /* ValidationRule.swift in Sources */,
+				92FE1DD412CCD6721E61AD68B691D27E /* Validator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220644A5F50D50F71630E33D6E749956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18417520508CC7E5224AFB63B912BC5 /* Pods-MSSPhoneNumber_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2206EDEC4EC22DA7C731EC167EC11343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D57F2077FF976F702804D437020A008 /* Pods-MSSPhoneNumber_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B10A154C5545F176BEB548454D11AB69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSSPhoneNumber;
+			target = 95892E9D3B7AF60E43B749D470ECBE81 /* MSSPhoneNumber */;
+			targetProxy = 1E8BA6779528F8954B0E6D632EAAEB86 /* PBXContainerItemProxy */;
+		};
+		B67619F064558EDE8963048564E76E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MSSPhoneNumber_Example";
+			target = 8815A64E60F446122019F7BD7FF3A0A0 /* Pods-MSSPhoneNumber_Example */;
+			targetProxy = D442DBEEF57BD242F1AD2B0027B45CCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		640FA777F4C2AFD65B22AE7CB352831C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5075A1C883697A3515E824E2907F4698 /* Pods-MSSPhoneNumber_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSSPhoneNumber_Example/Pods-MSSPhoneNumber_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSSPhoneNumber_Example/Pods-MSSPhoneNumber_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66EE709377821FA56D904A7E70248EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDEC0B74132F884CCF1069BA0BB360D /* MSSPhoneNumber.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSSPhoneNumber/MSSPhoneNumber-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSSPhoneNumber/MSSPhoneNumber-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MSSPhoneNumber/MSSPhoneNumber.modulemap";
+				PRODUCT_MODULE_NAME = MSSPhoneNumber;
+				PRODUCT_NAME = MSSPhoneNumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		759B05F88960ABF3B86A9F653DD9BFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B71DAD6BF2C34CCFC0873D074ED0CF /* MSSPhoneNumber.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSSPhoneNumber/MSSPhoneNumber-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSSPhoneNumber/MSSPhoneNumber-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MSSPhoneNumber/MSSPhoneNumber.modulemap";
+				PRODUCT_MODULE_NAME = MSSPhoneNumber;
+				PRODUCT_NAME = MSSPhoneNumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA0AEC7DA87829B0C201158C7BA79512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F466111F6769F5F545F9AF7ED46D9CF0 /* Pods-MSSPhoneNumber_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSSPhoneNumber_Tests/Pods-MSSPhoneNumber_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSSPhoneNumber_Tests/Pods-MSSPhoneNumber_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEE662DB91A699EC47522F369C9323CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5734F152B7B3C550A76A0BA3C7977C11 /* Pods-MSSPhoneNumber_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSSPhoneNumber_Tests/Pods-MSSPhoneNumber_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSSPhoneNumber_Tests/Pods-MSSPhoneNumber_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D63ECDEB5EACFE087114488526B6A65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486412D8981686E683B6EDFE8CBF2C86 /* Pods-MSSPhoneNumber_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSSPhoneNumber_Example/Pods-MSSPhoneNumber_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSSPhoneNumber_Example/Pods-MSSPhoneNumber_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A610633D66165313A46C2B82D32BCD8 /* Build configuration list for PBXNativeTarget "MSSPhoneNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66EE709377821FA56D904A7E70248EC5 /* Debug */,
+				759B05F88960ABF3B86A9F653DD9BFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D696F8AC4B2CA24E01EDB95559DF9B2 /* Build configuration list for PBXNativeTarget "Pods-MSSPhoneNumber_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE662DB91A699EC47522F369C9323CA /* Debug */,
+				AA0AEC7DA87829B0C201158C7BA79512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C280B37A24B43F51893627F8219FE27 /* Build configuration list for PBXNativeTarget "Pods-MSSPhoneNumber_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640FA777F4C2AFD65B22AE7CB352831C /* Debug */,
+				D63ECDEB5EACFE087114488526B6A65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

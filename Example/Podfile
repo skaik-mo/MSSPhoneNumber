@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MSSPhoneNumber_Example' do
+  pod 'MSSPhoneNumber', :path => '../'
+
+  target 'MSSPhoneNumber_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

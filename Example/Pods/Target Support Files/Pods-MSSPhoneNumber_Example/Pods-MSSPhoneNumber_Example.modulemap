@@ -1,0 +1,6 @@
+framework module Pods_MSSPhoneNumber_Example {
+  umbrella header "Pods-MSSPhoneNumber_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

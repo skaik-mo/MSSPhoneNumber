@@ -1,0 +1,6 @@
+framework module MSSPhoneNumber {
+  umbrella header "MSSPhoneNumber-umbrella.h"
+
+  export *
+  module * { export * }
+}
